@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+
+.l_background{
+    width: 100%;
+    min-height: 700px;
+    background: url(./../images/background.jpg) no-repeat center top / cover;
+    padding-top: 50px;
+    display: flex;
+}
+
+.l_window {
+    background-color: white;
+    height: auto;
+    width: 90%;
+    opacity: 0.8;
+    margin: 0 auto;  
+    animation: appearance 1s;
+    animation-delay: 1s;
+}
+
+.l_content {
+    display: flex;
+}
+
+@keyframes appearance {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.8;
+    }
+}
+
+.column1 {
+    width: 600px;
+    margin: 50px;
+}
+
+.column2 {
+    width: 300px;
+    margin: 50px;
+    padding-top: 40px;
+} 
+
+.column3 {
+    width: 300px;
+    margin: 50px;
+    padding-top: 40px;
+}
+
+.l_title {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.l_text {
+    line-height: 20px;
+}
+
+.l_image{
+    width: 300px;
+    padding-bottom: 40px;
+}
+
+.backButton{
+    width: 300px;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.l_task{
+    line-height: 25px;
+    margin-bottom: 20px;
+} 
+
+.l_dictionary{
+    line-height: 25px;
+}
+
+audio {
+    margin-bottom: 50px;
+}
+
+.pagginator{
+    display: flex;
+}
+
+.button {
+    width: 50px;
+    height: auto ;
+    opacity: 0;
+    transition: 2s;
+}
+
+
+
+
+
